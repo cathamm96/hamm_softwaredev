@@ -15,9 +15,8 @@ namespace CodeLouPractice1
             Console.Write("How many letters would you like to skip: ");
             string userInput = Console.ReadLine();
             int numberToSkip = int.Parse(userInput);
-            string skipped = CreateAlphabetSkipped(numberToSkip);
-            Console.WriteLine(skipped);
-           
+            string skipOver = CreateAlphabetSkipped(numberToSkip);
+            Console.WriteLine(skipOver);
         }
 
 
