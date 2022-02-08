@@ -8,7 +8,7 @@ namespace CodeLouPractice1
         {
             Console.WriteLine("What would you like to do?");
             Console.WriteLine("\tA-Alphabet");
-            Console.WriteLine("\tZ-Alphabet Backwards");
+            Console.WriteLine("\tZ-Alphabet Backwards"); 
             Console.WriteLine("\tS-Alphabet Skipping Letters");
             Console.WriteLine("Selection: ");
             string userInput = Console.ReadLine();
